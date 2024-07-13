@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>purchhistory</class>
+ <widget class="QWidget" name="purchhistory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="historycheck">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>610</y>
+     <width>241</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Посмотреть историю покупок</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>611</width>
+     <height>581</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deletehistrory">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>640</y>
+     <width>241</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Стереть историю покупок</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
